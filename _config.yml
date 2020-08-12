@@ -1,5 +1,10 @@
-theme: jekyll-theme-minimal
 title: Cameron Ibrahim
+author: Cameron Ibrahim
+logo: /assets/img/cat.jpg
+description: Personal Website & Blog
+show_downloads: false
+theme: jekyll-theme-minimal
+
 email: contact@cameronibrahim.com
-twitter_username: cam_a_ibrahim
-github_username: cameton
+twitter: cam_a_ibrahim
+github: cameton

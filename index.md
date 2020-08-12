@@ -1,13 +1,123 @@
-# Paragraph 1
+---
+layout: default
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut enim dignissim, fringilla orci eget, pharetra arcu. Nunc est tellus, efficitur eu placerat sed, pulvinar id elit. Aliquam erat volutpat. Integer et mauris aliquet, facilisis erat sed, tempor lorem. Cras metus tortor, consequat a nisl id, congue tristique nunc. Aenean eu diam sed dolor facilisis dictum ac sed felis. Donec id turpis vitae arcu viverra gravida.
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-Morbi in hendrerit orci. Donec in ante iaculis, egestas velit in, consectetur risus. Phasellus quis eros nec mauris viverra accumsan eu quis nibh. Quisque in enim at ante ornare consequat. Nullam porttitor arcu at magna fermentum, at efficitur velit euismod. Etiam tempus rutrum augue quis auctor. In felis nisl, lacinia posuere vestibulum ut, facilisis id justo. Suspendisse aliquet scelerisque nisl, id placerat ipsum vulputate vel. Duis semper vitae nisi eget sodales.
+[Link to another page](./another-page.html).
 
-Donec bibendum purus leo, vel commodo nunc venenatis eu. Vivamus in diam urna. Vestibulum auctor ligula sit amet mauris egestas, in dictum dui condimentum. Integer sed massa nibh. Sed egestas nisi sit amet bibendum pulvinar. Morbi tempor dui sit amet lorem convallis eleifend. Aliquam molestie lacinia ipsum ac tincidunt. Curabitur eu mauris nec quam lobortis rhoncus id et tellus. Ut gravida magna vitae purus aliquam, non pellentesque metus rutrum. Pellentesque et feugiat metus. Aliquam sodales nulla a tellus venenatis faucibus. Aenean ultrices tempor purus nec interdum. Donec sit amet dictum augue. Duis posuere lacus ac accumsan blandit. Morbi tempor lorem ultrices odio tincidunt suscipit. Proin sagittis purus non malesuada tincidunt.
+There should be whitespace between paragraphs.
 
-# Paragraph 2
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-Proin mauris urna, placerat vitae pretium porttitor, auctor vel quam. Nullam iaculis venenatis eros ut tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Ut vulputate, nunc vitae fringilla feugiat, massa risus dictum dolor, ac dictum sapien metus et leo. Duis ut ligula eu ante pellentesque sodales. Cras fermentum enim in sollicitudin ullamcorper. Nam mattis ultrices nisl, ac tempor urna imperdiet ut. Nam sit amet porta orci. Nunc dictum faucibus magna, vitae lacinia diam pretium quis. Donec ut enim dictum, luctus ante ut, interdum augue. Nunc eu cursus nibh, ut fringilla nisi.
+# Header 1
 
-Praesent pellentesque leo eu nunc pharetra consequat. Sed erat eros, ultricies ac est eu, sagittis rutrum sapien. Vestibulum porta aliquam nulla, ac ultricies mauris condimentum id. Integer non lorem fringilla, tincidunt arcu quis, faucibus elit. Vestibulum laoreet metus sed est finibus viverra. Donec pulvinar dapibus nisl, et vulputate libero auctor sed. In ullamcorper velit fringilla auctor mollis. Praesent vel venenatis mauris, a sollicitudin est. Aliquam enim ante, posuere vel mollis sit amet, egestas id sem. Suspendisse non mi non tellus tempus vulputate. Pellentesque accumsan tellus vitae leo egestas, at venenatis nibh tempor. Aliquam erat volutpat. Etiam hendrerit accumsan magna. 
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
